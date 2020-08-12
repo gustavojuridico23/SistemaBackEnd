@@ -1,0 +1,38 @@
+.titulo {
+    transform: scale(0.2) translateY(50vh);
+    opacity: 0;
+    animation: 0.5s ease 0s animacaoTitulo forwards;
+  }
+  
+  @keyframes animacaoTitulo {
+    from {
+      transform: scale(0.2) translateY(0vh);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1) translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+#adm {
+    margin-left: 2em;
+}
+
+
+.formulario input{
+    margin-bottom: 10px;
+    width: 150px;
+    transition: 0.5s;
+    text-indent: 5px;
+}
+
+
+.formulario input:focus{
+    width: 80vw;
+}
+
+.top-title{
+    text-align: center;
+}
